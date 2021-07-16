@@ -18,7 +18,16 @@ export default {
     Header,
     Main,
     Footer
-  }
+  },
+
+  data() {
+    return {
+      headerMenu: [Homes, ]
+    }
+  },
+
+
+
 }
 </script>
 
@@ -28,6 +37,8 @@ export default {
 
 #app {
   font-family: Source Sans Pro, Libre Baskerville, sans-serif;
-
 }
+
+
+
 </style>
