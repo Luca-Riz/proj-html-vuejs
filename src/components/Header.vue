@@ -1,7 +1,28 @@
 <template>
   <div>
 
-    {{ msg }}
+    <header>
+      <!-- left -->
+      <div class="compName"></div>
+      <!-- end left -->
+      
+      <!-- right -->
+      <nav>
+        
+      </nav>
+      <!-- end right -->
+
+    </header>
+
+    <div class="jumbotron">
+      <ul>
+        <li v-for="item in NavBarHeader" :key="item"
+          class="text-uppercase">
+            {{ item }}
+        </li>
+      </ul>
+    </div>
+    
 
   </div>
 </template>
@@ -11,13 +32,13 @@
 import NavBarHeader from '@/data/NavBarHeader.js';
 
 export default {
-  name: 'Header',
+  name: 'Header', 
   props: {
     msg: String
   },
   data() {
     return {
-      headerMenu: NavBarHeader,
+      NavBarHeader,
     }
   },
 }
