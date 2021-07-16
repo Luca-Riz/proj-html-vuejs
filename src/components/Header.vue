@@ -1,45 +1,48 @@
-<template>
-  <div class="container">
+<template class="headJu">
+  <div class="allHead">
 
-    <!-- start header -->
-    <header class="d-flex justify-content-between">
-      <!-- left -->
-      <div class="titleFont fs-3 m-3"> Everlead <span class="orange">.</span></div>
-      <!-- end left -->
-      
-      <!-- right -->
-      <nav class="">
-        <ul class="none d-flex justify-content-start">
-          <li v-for="item in NavBarHeader" :key="item"
-            class="text-uppercase unstyled m-3">
-              <strong>{{ item }}</strong>
-          </li>
-          <li class="m-3"> <i class="fas fa-search"></i> </li>
-          <li class="m-3"> <i class="fas fa-list-ul"></i> </li>
-        </ul>
-      </nav>
-      <!-- end right -->
+    <div class="container">
 
-    </header>
-    <!-- end header -->
+      <!-- start header -->
+      <header class="d-flex justify-content-between">
+        <!-- left -->
+        <div class="titleFont fs-3 m-3"> Everlead <span class="orange">.</span></div>
+        <!-- end left -->
+        
+        <!-- right -->
+        <nav class="">
+          <ul class="none d-flex justify-content-start">
+            <li v-for="item in NavBarHeader" :key="item"
+              class="text-uppercase unstyled m-3">
+                <strong>{{ item }}</strong>
+            </li>
+            <li class="m-3"> <i class="fas fa-search"></i> </li>
+            <li class="m-3"> <i class="fas fa-list-ul"></i> </li>
+          </ul>
+        </nav>
+        <!-- end right -->
 
-    <div class="jumbotron ">
-      <div class="ourTeam row d-flex debug">
-        <div class="sx debug col-1">freccia sx</div>
-        <div class="center debug col-4">
-          <div class="titleFont fw-bolder">Our Team<span class="orange">.</span></div>
-          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit delectus molestiae eius iure debitis!</p>
-          <div class="">
-            <div class="text-uppercase inline_b">Read more</div>
-            <div class="text-uppercase inline_b bg_orange">Purchase</div>
+      </header>
+      <!-- end header -->
+
+      <div class="jumbotron ">
+        <div class="ourTeam row d-flex debug">
+          <div class="sx debug col-1">freccia sx</div>
+          <div class="center debug col-4">
+            <div class="titleFont fw-bolder">Our Team<span class="orange">.</span></div>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit delectus molestiae eius iure debitis!</p>
+            <div class="">
+              <div class="text-uppercase inline_b">Read more</div>
+              <div class="text-uppercase inline_b bg_orange">Purchase</div>
+            </div>
           </div>
+          <div class="dx col-1 offset-6 debug">freccia dx</div>
+
         </div>
-        <div class="dx col-1 offset-6 debug">freccia dx</div>
-
       </div>
-    </div>
-    
+      
 
+    </div>
   </div>
 </template>
 
@@ -70,8 +73,13 @@ export default {
 
   span.orange { color: $orange}
 
+  .allHead{
+    background-image: url('../assets/img/rev-slider-main-home-img-03.jpg');
+    width: 100%;
+    height: 910px;
+  }
+
   .jumbotron {
-    background-image: url require('./assets/img/rev-slider-main-home-img-03.jpg');
     .center{
       .titleFont {
         font-size: $fSize_H;
