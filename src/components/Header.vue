@@ -8,19 +8,19 @@
       
       <!-- right -->
       <nav>
-        
+        <ul>
+          <li v-for="item in NavBarHeader" :key="item"
+            class="text-uppercase">
+              {{ item }}
+          </li>
+        </ul>
       </nav>
       <!-- end right -->
 
     </header>
 
     <div class="jumbotron">
-      <ul>
-        <li v-for="item in NavBarHeader" :key="item"
-          class="text-uppercase">
-            {{ item }}
-        </li>
-      </ul>
+
     </div>
     
 
