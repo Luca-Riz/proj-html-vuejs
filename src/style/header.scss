@@ -20,10 +20,10 @@
 
 
     .jumbotron {
-      margin-top: 25%;
+      margin-top: 15%;
       .ourTeam{
         .sx, .dx{
-          margin-top: 100px;
+          margin-top: $fSize_H; 
         }
 
         .dx{

@@ -6,7 +6,7 @@
       <!-- start header -->
       <header class="d-flex justify-content-between">
         <!-- left -->
-        <div class="titleFont fs-3 m-3"> Everlead <span class="orange">.</span></div>
+        <div class="titleFont fs-3 m-3"> Everlead<span class="orange">.</span></div>
         <!-- end left -->
         
         <!-- right -->
@@ -26,9 +26,17 @@
       <!-- end header -->
 
       <div class="jumbotron">
-        <div class="ourTeam row d-flex debug">
-          <div class="sx debug col-1">freccia sx</div>
-          <div class="center debug col-4">
+        <div class="ourTeam row d-flex">
+
+          <div class="sx col-1">
+            <!--arrow left-->
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-left" viewBox="0 0 16 16">
+              <path fill-rule="evenodd" d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z"/>
+            </svg>
+            <!--end arrow left-->
+          </div>
+
+          <div class="center col-4">
             <div class="titleFont fw-bolder">Our Team<span class="orange">.</span></div>
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit delectus molestiae eius iure debitis!</p>
             <div class="">
@@ -36,7 +44,14 @@
               <div class="text-uppercase inline_b bg_orange">Purchase</div>
             </div>
           </div>
-          <div class="dx col-1 offset-6 debug">freccia dx</div>
+
+          <div class="dx col-1 offset-6">
+            <!-- arrow right -->
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+              <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+            </svg>
+            <!--end arrow right-->
+          </div>
 
         </div>
       </div>
