@@ -27,8 +27,12 @@
       <div class="ourTeam row d-flex debug">
         <div class="sx debug col-1">freccia sx</div>
         <div class="center debug col-4">
-          <div class="titleFont">Our team<span class="orange">.</span></div>
-          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nihil, inventore perferendis voluptatum itaque fugiat quam impedit aliquid provident! Accusantium exercitationem cum aspernatur quod qui similique culpa, suscipit sed enim necessitatibus?</p>
+          <div class="titleFont fw-bolder">Our Team<span class="orange">.</span></div>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit delectus molestiae eius iure debitis!</p>
+          <div class="">
+            <div class="text-uppercase inline_b">Read more</div>
+            <div class="text-uppercase inline_b bg_orange">Purchase</div>
+          </div>
         </div>
         <div class="dx col-1 offset-6 debug">freccia dx</div>
 
@@ -68,9 +72,15 @@ export default {
 
   .jumbotron {
     background-image: url require('./assets/img/rev-slider-main-home-img-03.jpg');
+    .center{
+      .titleFont {
+        font-size: $fSize_H;
+      }
 
-    .titleFont {
-      font-size: $fSize_H;
+      .inline_b{
+        display: inline-block;
+      }
+
     }
   }
 
