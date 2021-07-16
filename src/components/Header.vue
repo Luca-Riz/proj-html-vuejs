@@ -1,7 +1,7 @@
-<template class="headJu">
+<template>
   <div class="allHead">
 
-    <div class="container">
+    <div class="container-fluid">
 
       <!-- start header -->
       <header class="d-flex justify-content-between">
@@ -25,7 +25,7 @@
       </header>
       <!-- end header -->
 
-      <div class="jumbotron ">
+      <div class="jumbotron">
         <div class="ourTeam row d-flex debug">
           <div class="sx debug col-1">freccia sx</div>
           <div class="center debug col-4">
@@ -75,21 +75,43 @@ export default {
 
   .allHead{
     background-image: url('../assets/img/rev-slider-main-home-img-03.jpg');
+    background-position: right;
+    background-repeat: no-repeat;
+    // background-size: cover;
+    background-color: #ffffff;
     width: 100%;
-    height: 910px;
+    height: 850px;
   }
 
-  .jumbotron {
-    .center{
-      .titleFont {
-        font-size: $fSize_H;
-      }
+  .container-fluid {
+    width: 95%;
 
-      .inline_b{
-        display: inline-block;
-      }
 
+    .jumbotron {
+      margin-top: 25%;
+      .ourTeam{
+        .sx, .dx{
+          margin-top: 100px;
+        }
+
+        .dx{
+          text-align: right;
+        }
+        
+        
+        .center{
+          .titleFont {
+            font-size: $fSize_H;
+          }
+    
+          .inline_b{
+            display: inline-block;
+          }
+    
+        }
+      }
     }
+
   }
 
 </style>
