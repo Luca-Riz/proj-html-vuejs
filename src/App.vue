@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
+    <!-- <img alt="Vue logo" src="./assets/logo.png"> -->
     <Header/>
     <Main msg="Welcome to Your Main"/>
     <Footer msg="Welcome to Your Footer"/>
@@ -17,7 +17,7 @@ export default {
   components: {
     Header,
     Main,
-    Footer
+    Footer,
   },
 
   data() {
