@@ -7,11 +7,19 @@
 </template>
 
 <script>
+
+import NavBarHeader from '@/data/NavBarHeader.js';
+
 export default {
   name: 'Header',
   props: {
     msg: String
-  }
+  },
+  data() {
+    return {
+      headerMenu: NavBarHeader,
+    }
+  },
 }
 </script>
 
