@@ -66,52 +66,7 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
 @import '../style/common.scss';
+@import '../style/header.scss';
 
-  .titleFont{
-    font-family: "$title_font";
-  }
-
-  span.orange { color: $orange}
-
-  .allHead{
-    background-image: url('../assets/img/rev-slider-main-home-img-03.jpg');
-    background-position: right;
-    background-repeat: no-repeat;
-    // background-size: cover;
-    background-color: #ffffff;
-    width: 100%;
-    height: 850px;
-  }
-
-  .container-fluid {
-    width: 95%;
-
-
-    .jumbotron {
-      margin-top: 25%;
-      .ourTeam{
-        .sx, .dx{
-          margin-top: 100px;
-        }
-
-        .dx{
-          text-align: right;
-        }
-        
-        
-        .center{
-          .titleFont {
-            font-size: $fSize_H;
-          }
-    
-          .inline_b{
-            display: inline-block;
-          }
-    
-        }
-      }
-    }
-
-  }
 
 </style>
