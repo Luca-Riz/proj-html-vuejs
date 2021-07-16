@@ -18,7 +18,6 @@
   .container-fluid {
     width: 95%;
 
-
     .jumbotron {
       margin-top: 15%;
       .ourTeam{
@@ -28,6 +27,10 @@
 
         .dx{
           text-align: right;
+        }
+
+        .dx svg{
+          height: 20px;
         }
         
         
