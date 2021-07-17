@@ -2,7 +2,7 @@
   <div id="app">
     <!-- <img alt="Vue logo" src="./assets/logo.png"> -->
     <Header/>
-    <Main msg="Welcome to Your Main"/>
+    <Main/>
     <Footer msg="Welcome to Your Footer"/>
   </div>
 </template>
@@ -38,7 +38,5 @@ export default {
 #app {
   font-family: Source Sans Pro, Libre Baskerville, sans-serif;
 }
-
-
 
 </style>

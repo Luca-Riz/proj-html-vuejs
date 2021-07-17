@@ -10,6 +10,7 @@
 
 body {
   font-family: "Source Sans Pro";
+  background-color: #fafafa;
 }
 
 ul.none {list-style-type: none;}
@@ -22,4 +23,7 @@ ul.none {list-style-type: none;}
   background-color: $orange;
   color: white;
 }
+
+.orange { color: $orange}
+.bg_orange { background-color: $orange}
 

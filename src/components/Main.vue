@@ -1,12 +1,17 @@
 <template>
   <div>
-    {{ msg }}
+    <Section1/>
   </div>
 </template>
 
 <script>
+import Section1 from './Section1.vue'
+
 export default {
   name: 'Main',
+  components:{
+    Section1
+  },
   props: {
     msg: String
   }
