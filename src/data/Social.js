@@ -1,0 +1,1 @@
+export default ['<i class="fab fa-linkedin"></i>', '<i class="fab fa-facebook"></i>', '<i class="fab fa-twitter-square"></i>']

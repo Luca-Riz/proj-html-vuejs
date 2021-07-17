@@ -1,5 +1,5 @@
 <template>
-  <div class="cont">
+  <div class="cont sec1">
 
     <!-- title -->
     <div class="title text-center">
@@ -42,9 +42,7 @@ export default {
 <style lang="scss" scoped>
 @import '../style/common.scss';
 
-.cont{
-  width: 90%;
-  margin: auto;
+.sec1{
   position: relative;
   transform: translate(0, -60px);
   background-color: white;
