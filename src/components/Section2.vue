@@ -15,9 +15,10 @@
       <div class="bg_orange"></div>
       <p class=""> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua... </p>
       <div class="social">
-        <ul v-for="item in Social" :key="item">
-          <li> {{item}} </li>
-        </ul>
+        <div> <i class="fab fa-linkedin-in"></i> </div>
+        <div> <i class="fab fa-facebook-f"></i> </div>
+        <div> <i class="fab fa-twitter"></i> </div>
+
       </div>
     </div>
 
@@ -26,15 +27,10 @@
 </template>
 
 <script>
-import Social from '@/data/Social.js';
 
 export default {
   name: 'Section2',
-  data() {
-    return {
-      Social
-    }
-  },
+
 }
 </script>
 
@@ -87,8 +83,31 @@ export default {
       width: 75px;
       height: 2px;
     }
+
+    .social div{
+      display: inline-block;
+      width: 2rem;
+      height: 2rem;
+      background-color: $orange;
+      border-radius: 50%;
+      position: relative;
+
+      i{
+        background-color:white;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+      }
+    }
   }
 
+  .jason .social div i{
+    color:white;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    // transform: translate( -50%, -50%);
+  }
 
 }
 
