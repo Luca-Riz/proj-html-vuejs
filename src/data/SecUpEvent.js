@@ -1,6 +1,6 @@
 export default [
 {
-  "day":      07,
+  "day":      "07",
   "date":     "Jan. 2022",
   "city":     "Melbourne Coaching",
   "hour":     "9:00 am - 5:00 pm, Jan 7, 2022",
