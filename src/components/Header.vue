@@ -29,11 +29,7 @@
         <div class="ourTeam row d-flex">
 
           <div class="sx col-1">
-            <!--arrow left-->
-            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-arrow-left" viewBox="0 0 16 16">
-              <path fill-rule="evenodd" d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z"/>
-            </svg>
-            <!--end arrow left-->
+            <i class="bi bi-arrow-left"></i>
           </div>
 
           <div class="center col-4">
@@ -47,11 +43,7 @@
           </div>
 
           <div class="dx col-1 offset-6">
-            <!-- arrow right -->
-            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"  fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
-              <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
-            </svg>
-            <!--end arrow right-->
+            <i class="bi bi-arrow-right"></i>
           </div>
 
         </div>

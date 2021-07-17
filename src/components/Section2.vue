@@ -1,5 +1,5 @@
 <template>
-  <div class="cont sec2 debug">
+  <div class="cont sec2">
 
     <div class="img">
       <img src="../assets/img/h1-blog-img-04.jpg" alt="">
@@ -9,16 +9,29 @@
       <img src="../assets/svg/svg-4.svg" alt="pointing">
     </div>
 
-    <div class="jason debug">
+    <div class="jason">
       <div class="titleFont"> Jason Bickford </div>
       <div class="subTitle"> Founder and Executive Director </div>
-      <div class="bg_orange"></div>
-      <p class=""> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua... </p>
+      <div class="bg_orange my-3"></div>
+      <p class=""> 
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua... 
+      </p>
+      <!-- social -->
       <div class="social">
-        <div> <i class="fab fa-linkedin-in"></i> </div>
-        <div> <i class="fab fa-facebook-f"></i> </div>
-        <div> <i class="fab fa-twitter"></i> </div>
+        <div class="singSoc"> 
+          <i class="fab fa-linkedin-in icon"></i> 
+        </div>
+        <div class="singSoc"> 
+          <i class="fab fa-facebook-f icon"></i> 
+        </div>
+        <div class="singSoc"> 
+          <i class="fab fa-twitter icon"></i> 
+        </div>
+      </div>
+      <!-- end social -->
 
+      <div class="sign">
+        <img src="../assets/img/signJ.jpg" alt="sign">
       </div>
     </div>
 
@@ -41,7 +54,6 @@ export default {
   height: 700px;
   position: relative;
   padding: auto;
-
 
   .img{
     height: 500px;
@@ -74,6 +86,7 @@ export default {
     background-color: white;
     width: 650px;
     height: 400px;
+    padding: 70px;
 
     .titleFont{
       font-size: $fSize_2;
@@ -84,30 +97,42 @@ export default {
       height: 2px;
     }
 
-    .social div{
+    .social {
       display: inline-block;
-      width: 2rem;
-      height: 2rem;
-      background-color: $orange;
-      border-radius: 50%;
-      position: relative;
 
-      i{
-        background-color:white;
+      .singSoc{
+        display: inline-block;
+        width: 1.8rem;
+        height: 1.8rem;
+        background-color: $orange;
+        border-radius: 50%;
+        position: relative;
+        color: white;
+        margin-right: 10px;
+      }
+
+      .icon{
         position: absolute;
         top: 50%;
         left: 50%;
+        transform: translate(-50%, -50%);
+      }
+    }
+
+    .sign{
+      height: 4rem;
+      display: inline-block;
+      text-align: right;
+      position: absolute;
+      right: 100px;
+      top: 240px;
+
+      img{
+        height: 100%;
       }
     }
   }
 
-  .jason .social div i{
-    color:white;
-    position:absolute;
-    top: 50%;
-    left: 50%;
-    // transform: translate( -50%, -50%);
-  }
 
 }
 
