@@ -3,21 +3,21 @@
     <div class="container">
       <div class="row">
         
-        <div class="col-6 left debug">
-          <div class="titleFont fw-bolder">
+        <div class="col-6 left px-5">
+          <div class="titleFont fw-bolder pb-2">
             Creative Leader<span class="orange">.</span>
           </div>
           <div class="line"></div>
-          <p>
+          <p class="pt-3">
           Lorem ipsum dolor sit, amet consectetur adipisicing elit.Quis pariatur adipisci ea cum nobis quaerat. Placeat in,excepturi eligendi, cupiditate deserunt consecteturveniam sed atque doloribus assumenda, libero corporis?Aperiam.
-          Molestiae ut alias reprehenderit eos repellat sapiente porro nihil laboriosam, delectus sequi rerum aliquid autem maxime minus iusto commodi ullam neque, culpa dolor. Iure iusto esse inventore, dolor minima possimus.
+          Molestiae ut alias reprehenderit eos repellat sapiente porro nihil laboriosam.
           </p>
           <div class="text-uppercase fw-bolder cP">Read more</div>
         </div>
 
-        <div class="col-6 right debug">
+        <div class="col-6 right">
           <div class="mentor" v-for="item in SecCreative" :key="item.id">
-            <div class="name d-flex justify-content-between">
+            <div class="name d-flex justify-content-between titleFont my-1">
               <div class="sx"> {{item.title}} </div>
               <div class="dx"> {{item.perc}} </div>
             </div>
@@ -56,54 +56,68 @@ export default {
 
 .container{
 
+  .row{
+    margin-top: 100px;
+    margin-bottom: 100px;
 
-  .left{
-    width: 50%;
-
-    .titleFont{
-      font-size: $fSize_3;
-    }
-
-    p{
-      color: $t_grey;
-    }
+    .left{
+      width: 50%;
   
-    .line{
-      width: 75px;
-      height: 2px;
-      background-color: $orange;
-    }
-  }
+      .titleFont{
+        font-size: $fSize_3;
+      }
   
-  .right{
-    width: 50%;
-  
-    .bar{
-      position: relative;
-      
-        .all{
-          position: absolute;
-          top: 4px;
-          left: 0;
-          width: 100%;
-          height: 1px;
-          background-color: $bg_grey;
-        }
-  
-      .perc{
-        position: absolute;
-        top: 0;
-        left: 0;
-        height: 5px;
+      p{
+        color: $t_grey;
+      }
+    
+      .line{
+        width: 75px;
+        height: 2px;
         background-color: $orange;
       }
-
-      .w78{width: 78%;}
-      .w95{width: 95%;}
-      .w65{width: 65%;}
-      .w83{width: 83%;}
+    }
+    
+    .right{
+      width: 50%;
+  
+      .mentor{
+        margin-bottom: 35px
+      }
+  
+      .name{
+        font-size: $fSize_5;
+      }
+    
+      .bar{
+        position: relative;
+        
+          .all{
+            position: absolute;
+            top: 4px;
+            left: 0;
+            width: 100%;
+            height: 1px;
+            background-color: $bg_grey;
+          }
+    
+        .perc{
+          position: absolute;
+          top: 0;
+          left: 0;
+          height: 5px;
+          background-color: $orange;
+        }
+  
+        .w78{width: 78%;}
+        .w95{width: 95%;}
+        .w65{width: 65%;}
+        .w83{width: 83%;}
+      }
     }
   }
+
+
 }
 
 </style> 
