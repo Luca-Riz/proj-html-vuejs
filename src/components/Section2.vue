@@ -3,6 +3,12 @@
 
     <div class="img">
       <img src="../assets/img/h1-blog-img-04.jpg" alt="">
+      <div class="aSx">
+        <i class="bi bi-arrow-left"></i>
+      </div>
+      <div class="aDx">
+        <i class="bi bi-arrow-right"></i>
+      </div>
     </div>
 
     <div class="point">
@@ -56,14 +62,39 @@ export default {
   padding: auto;
 
   .img{
+    position: relative;
     height: 500px;
     margin-top: 100px;
-    margin-left: 200px;
+    margin-left: 12%;
     display: inline-block;
     overflow: hidden;
 
     img{
       height: 100%;
+    }
+
+    .aSx, .aDx{
+      position: absolute;
+      bottom: 0;
+      width: 57px;
+      height: 71px;
+      background-color: $orange;
+      line-height: 71px;
+      text-align: center;
+      font-size: 1.5rem;
+
+      i{
+        color:white;
+      }
+    }
+
+    .aSx{
+      left: 0;
+
+    }
+
+    .aDx{
+      left: 57px;
     }
   }
 
@@ -81,7 +112,7 @@ export default {
   .jason{
     position: absolute;
     top: 50%;
-    right: 230px;
+    left:49%;
     transform: translateY(-50%);
     background-color: white;
     width: 650px;
