@@ -126,6 +126,7 @@ export default {
     .bg_orange{
       width: 75px;
       height: 2px;
+      background-color: $orange;
     }
 
     .social {
