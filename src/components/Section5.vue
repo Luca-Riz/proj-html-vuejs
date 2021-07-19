@@ -76,7 +76,7 @@ export default {
   position: relative;
   transform: translate(0, -60px);
   padding-top: 130px;
-  padding-bottom: 130px;
+  padding-bottom: 80px;
 
   .title{
 
