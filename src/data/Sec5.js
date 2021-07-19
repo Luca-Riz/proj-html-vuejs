@@ -2,7 +2,7 @@ export default [
 
   {
     "url": require("../assets/img/h1-blog-img-01.jpg"),
-    "title": "New Business day",
+    "title": "New Business Day",
     "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed eius mas tellus dolor ..."
   },
 

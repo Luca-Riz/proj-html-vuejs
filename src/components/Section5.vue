@@ -16,6 +16,12 @@
         <div v-for="(item,i) in Sec5" :key="i" class="circle col-4">
           <div class="image">
             <img :src="item.url" :alt="item.title">
+            <div class="tag bg_orange">
+              <span class="me-1">
+                <i class="bi bi-tag"></i>
+              </span>
+              <span>Business, Leading</span>
+            </div>
           </div>
 
           <!-- text below img -->
@@ -33,9 +39,9 @@
               <span class="t_grey">Amanda Doe</span>  
             </div>
           </div>
-          <div class="fw-bolder mt-1 mb-2 titleFont subTitle"> {{item.title}} </div>
+          <div class="fw-bolder fs-3 mt-1 mb-2 titleFont subTitle"> {{item.title}} </div>
           <div class="t_grey mb-3"> {{item.text}} </div>
-          <div class="text-uppercase fw-bolder cP readMore">Read more</div>
+          <div class="text-uppercase fw-bolder cP">Read more</div>
           <!-- end text below img -->
         </div>
       </div>
@@ -103,15 +109,22 @@ export default {
         font-size: $fSize_7;
       }
 
-      .image{img{width: 100%}}
+      .image{
+        position: relative;
+        img{width: 100%}
+
+        .tag {
+          position: absolute;
+          bottom: -10px;
+          right: 15px;
+          padding: 10px 20px;
+        }
+      }
 
       .subTitle{
         font-size: $fSize_4;
       }
 
-      .readMore{
-        font-size: $fSize_7;
-      }
     }
 
   }
