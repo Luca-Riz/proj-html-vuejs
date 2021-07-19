@@ -20,11 +20,11 @@
 
           <div class="dx ms-4">
             <div class="city titleFont fw-bolder"> {{item.city}} </div>
-            <div class="txt hour my-2">
+            <div class="txt hour my-2 t_grey">
               <i class="bi bi-clock me-2"></i> 
               {{item.hour}} 
             </div>
-            <div class="txt address my-2">
+            <div class="txt address my-2 t_grey">
               <i class="bi bi-geo-alt me-2"></i>
               {{item.address}} 
               </div>

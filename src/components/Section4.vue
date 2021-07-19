@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="all">
     <div class="container">
       <div class="row">
         
@@ -53,6 +53,11 @@ export default {
 
 <style lang="scss" scoped>
 @import '../style/common.scss';
+
+.all{
+  background-color: white;
+  border: 1px solid white; //per fragare boostrap
+}
 
 .container{
 

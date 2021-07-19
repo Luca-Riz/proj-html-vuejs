@@ -3,8 +3,8 @@
 
     <!-- title -->
     <div class="title text-center">
-      <div class="titleFont fw-bolder">Our specialities<span class="master_orange">.</span></div>
-      <div class="sub_title">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam, consequuntur?</div>
+      <div class="titleFont title fw-bolder">Our specialities<span class="master_orange">.</span></div>
+      <div class="sub_title t_grey">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</div>
       <div class="line"></div>
       
     </div>
@@ -16,8 +16,8 @@
         <div class="m-4">
           <img :src="item.url" :alt="item.title">
         </div>
-        <div class="fw-bolder mb-2"> {{item.title}} </div>
-        <div> {{item.text}} </div>
+        <div class="fw-bolder mb-2 titleFont subTitle"> {{item.title}} </div>
+        <div class="t_grey"> {{item.text}} </div>
       </div>
     </div>
     <!-- end main -->
@@ -49,10 +49,14 @@ export default {
   padding-top: 130px;
   padding-bottom: 130px;
 
-    .titleFont{
+  .title{
+
+    .title{
       font-size: $fSize_2;
       font-family: $title_font;
     }
+  }
+
 
     .sub_title{
       margin-bottom: 2rem;
@@ -74,6 +78,9 @@ export default {
     .circle{
       width: 20%;
 
+      .subTitle{
+        font-size: $fSize_4;
+      }
     }
   }
 

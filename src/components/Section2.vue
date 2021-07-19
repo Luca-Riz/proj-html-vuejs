@@ -17,9 +17,9 @@
 
     <div class="jason">
       <div class="titleFont"> Jason Bickford </div>
-      <div class="subTitle"> Founder and Executive Director </div>
+      <div class="subTitle t_grey"> Founder and Executive Director </div>
       <div class="bg_orange my-3"></div>
-      <p class=""> 
+      <p class="t_grey"> 
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua... 
       </p>
       <!-- social -->
