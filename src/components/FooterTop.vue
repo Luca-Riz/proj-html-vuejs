@@ -9,7 +9,7 @@
         <div class="p1">
           <img src="../assets/img/h1-contact-rev-02.png" alt="plus1">
           <div class="position shadow px-5 py-3 mt-3">
-            <div class="where titleFont fw-bolder">New York coacing</div>
+            <div class="where titleFont fw-bolder">New York Coacing</div>
             <div class="more text-uppercase cP fw-bolder">Read More</div>
           </div>
         </div>

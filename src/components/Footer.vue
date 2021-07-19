@@ -1,16 +1,19 @@
 <template>
   <div>
     <FooterTop/>
+    <FooterBottom/>
   </div>
 </template>
 
 <script>
 import FooterTop from './FooterTop.vue'
+import FooterBottom from './FooterBottom.vue'
 
 export default {
   name: 'Footer',
   components:{
-    FooterTop
+    FooterTop,
+    FooterBottom,
   }
 }
 </script>
