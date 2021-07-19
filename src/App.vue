@@ -3,7 +3,7 @@
     <!-- <img alt="Vue logo" src="./assets/logo.png"> -->
     <Header/>
     <Main/>
-    <Footer msg="Welcome to Your Footer"/>
+    <Footer/>
   </div>
 </template>
 

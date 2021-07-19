@@ -1,8 +1,8 @@
 <template>
   <div>
-    <div class="image debug">
+    <div class="image">
       <img src="../assets/img/h1-img-04.jpg" alt="">
-      <div class="play">
+      <div class="play cP">
         <i class="bi bi-play-fill"></i>
       </div>
     </div>

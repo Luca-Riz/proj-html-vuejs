@@ -1,14 +1,16 @@
 <template>
   <div>
-    {{ msg }}
+    <FooterTop/>
   </div>
 </template>
 
 <script>
+import FooterTop from './FooterTop.vue'
+
 export default {
   name: 'Footer',
-  props: {
-    msg: String
+  components:{
+    FooterTop
   }
 }
 </script>

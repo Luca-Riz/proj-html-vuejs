@@ -31,9 +31,9 @@ export default {
     Section6,
     Section7,
   },
-  props: {
-    msg: String
-  }
+  // props: {
+  //   msg: String
+  // }
 }
 </script>
 
