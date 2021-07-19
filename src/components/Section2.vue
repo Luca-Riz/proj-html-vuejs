@@ -78,7 +78,7 @@ export default {
       bottom: 0;
       width: 57px;
       height: 71px;
-      background-color: $orange;
+      background-color: $m_orange;
       line-height: 71px;
       text-align: center;
       font-size: 1.5rem;
@@ -126,7 +126,7 @@ export default {
     .bg_orange{
       width: 75px;
       height: 2px;
-      background-color: $orange;
+      background-color: $m_orange;
     }
 
     .social {
@@ -136,7 +136,7 @@ export default {
         display: inline-block;
         width: 1.8rem;
         height: 1.8rem;
-        background-color: $orange;
+        background-color: $m_orange;
         border-radius: 50%;
         position: relative;
         color: white;

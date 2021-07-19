@@ -5,7 +5,7 @@
         
         <div class="col-6 left px-5">
           <div class="titleFont fw-bolder pb-2">
-            Creative Leader<span class="orange">.</span>
+            Creative Leader<span class="master_orange">.</span>
           </div>
           <div class="line"></div>
           <p class="pt-3">
@@ -74,7 +74,7 @@ export default {
       .line{
         width: 75px;
         height: 2px;
-        background-color: $orange;
+        background-color: $m_orange;
       }
     }
     
@@ -86,7 +86,8 @@ export default {
       }
   
       .name{
-        font-size: $fSize_5;
+        font-size: $fSize_4;
+        font-weight: 600;
       }
     
       .bar{
@@ -106,7 +107,7 @@ export default {
           top: 0;
           left: 0;
           height: 5px;
-          background-color: $orange;
+          background-color: $m_orange;
         }
   
         .w78{width: 78%;}

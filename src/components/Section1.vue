@@ -3,7 +3,7 @@
 
     <!-- title -->
     <div class="title text-center">
-      <div class="titleFont fw-bolder">Our specialities<span class="orange">.</span></div>
+      <div class="titleFont fw-bolder">Our specialities<span class="master_orange">.</span></div>
       <div class="sub_title">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam, consequuntur?</div>
       <div class="line"></div>
       
@@ -61,7 +61,7 @@ export default {
     .line{
       width: 80px;
       height: 2px;
-      background-color: $orange;
+      background-color: $m_orange;
       margin: auto;
       margin-bottom: $fSize_2;
     }

@@ -93,7 +93,7 @@ export default {
     }
 
     .bg_orange{
-      background-color: $orange;
+      background-color: $m_orange;
     }
 
     .sx{
@@ -116,7 +116,7 @@ export default {
     }
 
     .dx i{
-      color: $orange;
+      color: $m_orange;
     }
 
     

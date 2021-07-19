@@ -6,7 +6,7 @@
       <!-- start header -->
       <header class="d-flex justify-content-between">
         <!-- left -->
-        <div class="titleFont fs-1 m-3"> Everlead<span class="orange">.</span></div>
+        <div class="titleFont fs-1 m-3"> Everlead<span class="master_orange">.</span></div>
         <!-- end left -->
         
         <!-- right -->
@@ -33,7 +33,7 @@
           </div>
 
           <div class="center col-4">
-            <div class="titleFont fw-bolder">Our Team<span class="orange">.</span></div>
+            <div class="titleFont fw-bolder">Our Team<span class="master_orange">.</span></div>
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit delectus molestiae eius iure debitis!</p>
             <div class="">
               <!--# da sistemare -->
