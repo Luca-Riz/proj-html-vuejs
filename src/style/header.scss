@@ -54,10 +54,25 @@
           .inline_b{
             position: relative;
             display: inline-block;
-            padding: 1rem 2rem;
+            padding: 1rem 4rem 1rem 2rem;
 
             span{
               padding-right: 2rem;
+            }
+
+            .oLine{
+              position: absolute;
+              top: 50%;
+              right: 50px;
+              transform: translateY(-50%);
+              width: 1px;
+              height: 2rem;
+              display: inline-block;
+              transition: 0.3s;
+            }
+
+            &:hover .oLine{
+              height: 0;
             }
 
             i{
@@ -65,14 +80,15 @@
               top: 50%;
               right: 15px;
               transform: translateY(-50%);
-              transition: 0.5s;
+              transition: 0.3s;
             }
             
             &:hover .bi-arrow-right{
-
-              transform: translate(-20px, -50%);
+              transform: translate(-3rem, -50%);
             }
             
+            .c_bl{background-color: black;}
+            .c_wi{background-color: white;}
 
             
           }

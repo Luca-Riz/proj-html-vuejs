@@ -47,10 +47,12 @@
             <div class="btn_arrow">
               <div class="text-uppercase inline_b cP">
                 <span>Read more</span> 
+                <div class="oLine c_bl"></div>
                 <i class="bi bi-arrow-right"></i>
               </div>
               <div class="text-uppercase inline_b bg_orange cP">
                 <span>Purchase</span> 
+                <div class="oLine c_wi"></div>
                 <i class="bi bi-arrow-right"></i>
               </div>
             </div>
