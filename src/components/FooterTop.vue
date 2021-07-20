@@ -7,15 +7,15 @@
       <!-- left -->
       <div class="left col-6 pe-4">
         <img src="../assets/img/h1-contact-rev-01.png" alt="world" class="world">
-        <div class="p1">
+        <div class="p1 cP">
           <img src="../assets/img/h1-contact-rev-02.png" alt="plus1">
           <div class="position shadow px-5 py-3 mt-3">
             <div class="where titleFont fw-bolder">New York Coacing</div>
             <div class="more text-uppercase cP fw-bolder">Read More</div>
           </div>
         </div>
-        <img src="../assets/img/h1-contact-rev-02.png" alt="plus2" class="p2">
-        <img src="../assets/img/h1-contact-rev-02.png" alt="plus3" class="p3">
+        <img src="../assets/img/h1-contact-rev-02.png" alt="plus2" class="p2 cP">
+        <img src="../assets/img/h1-contact-rev-02.png" alt="plus3" class="p3 cP">
       </div>
       <!-- end left -->
 
