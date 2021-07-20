@@ -1,14 +1,83 @@
 .all{
-  background-color: #181515;
+  background-color: $bg_footer;
 
-  .col-3{
-    color: white;
+  .row{
+    padding-top: 75px;
+    padding-bottom: 75px;
+
+    .col-3{
+      padding: 1.5rem;
+  
+      .titleFont{
+        color: white;
+        font-size: $fSize_4;
+        font-weight: 600;
+        margin-bottom: 1rem;
+      }
+  
+      p, ul, a{
+        color: $t_grey;
+      }
+      
+      ul{
+        list-style: none;
+        float: left;
+        padding-left: 0;
+      }
+    }
+  
+    .line{
+      width: 30px;
+      height: 1px;
+      background-color: $m_orange;
+      margin-bottom: 25px;
+    }
+  
+    .social{
+      color: $bg_footer;
+      margin-top: 1.75rem;
+  
+      .singSoc{
+        background-color: white;
+        width: 1.5rem;
+        height: 1.5rem;
+        line-height: 1.5rem;;
+        border-radius: 50%;
+        text-align: center;
+        margin-right: 0.5rem;
+      }
+    }
+  
+    .twitter .fa-twitter {
+      color: $m_orange;
+      margin-right: 1rem;;
+    }
+
+    .contact{
+      li{
+        padding-bottom: 0.75rem;
+
+        i{
+          color: $m_orange;
+          padding-right: 0.5rem;;
+        }
+      }
+
+      .yourName{
+
+        input{
+          background-color: transparent;
+          border: none;
+          color: white;
+          text-decoration: none;
+          cursor: pointer;
+          border-bottom: 1px solid white;
+          padding-bottom: 0.5rem;
+        }
+      }
+    }
   }
 
-  .line{
-    width: 75px;
-    height: 2px;
-    background-color: $m_orange;
-    margin-bottom: 50px;
-  }
+
+  
 }

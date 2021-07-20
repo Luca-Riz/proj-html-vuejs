@@ -39,7 +39,8 @@
               <i class="fab fa-twitter icon"></i>
             </div>
             <p>
-              When it comes to improving your #search #functionality on your #WordPress #site, your first instinct might be to… https://t.co/wLPLptxSKE
+              When it comes to improving your #search #functionality on your #WordPress #site, your first instinct might be to… 
+              <a href="#">https://t.co/wLPLptxSKE</a> 
             </p>
           </div>
           <!-- end line 1 -->
@@ -50,7 +51,8 @@
               <i class="fab fa-twitter icon"></i>
             </div>
             <p>
-              Once the number of #articles on your #blog increases, your older posts will receive less and less traffic as they w… https://tN8QX98EiJK
+              Once the number of #articles on your #blog increases, your older posts will receive less and less traffic as they w…
+              <a href="#">https://tN8QX98EiJK</a> 
             </p>
           </div>
           <!--end line 2 -->
@@ -76,14 +78,23 @@
           <div class="titleFont">Contact me</div>
           <div class="line"></div>
           <ul class="">
-            <li>457 BigBlue Street, NY 10013</li>
-            <li>(315) 5512-2579</li>
-            <li>everlead@qodeinteractive.com</li>
+            <li>
+              <i class="bi bi-geo-alt"></i>
+              457 BigBlue Street, NY 10013
+            </li>
+            <li>
+              <i class="bi bi-telephone"></i>
+              (315) 5512-2579
+            </li>
+            <li>
+              <i class="bi bi-envelope"></i>
+              everlead@qodeinteractive.com
+            </li>
           </ul>
 
           <div class="yourName">
-            <input type="text">
-            <input type="botton">
+            <input type="text" placeholder="Your Name">
+            <input class="text-uppercase" type="button" value="Subscribe">
           </div>
           <div class="w_line"></div>
         </div>
