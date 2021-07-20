@@ -108,4 +108,15 @@
 
 .brands{
   margin: 130px 0;
+
+  img:last-child{
+    display: none;
+  }
+
+  .img:hover img:last-child{
+    display: block;
+  }
+  .img:hover img:first-child{
+    display: none;
+  }
 }

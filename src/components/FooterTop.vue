@@ -49,20 +49,25 @@
 
     <!-- bottom logo brands -->
     <div class="brands bottom container d-flex justify-content-between">
-      <div class="img1">
-        <img src="../assets/img/h4-clients-img-03.png" alt="">
+      <div class="img cP">
+        <img src="../assets/img/h4-clients-img-03.png" alt="#">
+        <img src="../assets/img/h4-clients-img-04-1.png" alt="#">
       </div>
-      <div class="img2">
-        <img src="../assets/img/h4-clients-img-05.png" alt="">
+      <div class="img cP">
+        <img src="../assets/img/h4-clients-img-05.png" alt="#">
+        <img src="../assets/img/h4-clients-img-06-1.png" alt="#">
       </div>
-      <div class="img3">
-        <img src="../assets/img/h4-clients-img-07.png" alt="">
+      <div class="img cP">
+        <img src="../assets/img/h4-clients-img-07.png" alt="#">
+        <img src="../assets/img/h4-clients-img-08-1.png" alt="#">
       </div>
-      <div class="img4">
-        <img src="../assets/img/h4-clients-img-09.png" alt="">
+      <div class="img cP">
+        <img src="../assets/img/h4-clients-img-09.png" alt="#">
+        <img src="../assets/img/h4-clients-img-10-1.png" alt="#">
       </div>
-      <div class="img5">
-        <img src="../assets/img/h4-clients-img-01.png" alt="">
+      <div class="img cP">
+        <img src="../assets/img/h4-clients-img-01.png" alt="#">
+        <img src="../assets/img/h4-clients-img-02.png" alt="#">
       </div>
     </div>
     <!-- bottom logo brands -->
