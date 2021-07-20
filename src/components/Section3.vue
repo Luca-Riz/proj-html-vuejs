@@ -11,7 +11,7 @@
 
       <div class="other">
 
-        <div class="event d-flex justify-content-start" v-for="(item,i) in SecUpEvent" :key="i">
+        <div class="event d-flex justify-content-start cP" v-for="(item,i) in SecUpEvent" :key="i">
 
           <div class="sx bg_orange text-center mt-3 ms-5">
             <div class="day titleFont fw-bolder"> {{item.day}} </div>
@@ -87,6 +87,10 @@ export default {
     padding-top: 28px;
     padding-bottom: 28px;
     border-top: 1px solid #ebebeb;
+
+    &:hover .city {
+      color: $m_orange;
+    }
 
     .sx, .dx{
       display: inline-block;
