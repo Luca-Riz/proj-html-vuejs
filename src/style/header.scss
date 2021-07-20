@@ -52,8 +52,29 @@
           }
     
           .inline_b{
+            position: relative;
             display: inline-block;
             padding: 1rem 2rem;
+
+            span{
+              padding-right: 2rem;
+            }
+
+            i{
+              position: absolute;
+              top: 50%;
+              right: 15px;
+              transform: translateY(-50%);
+              transition: 0.5s;
+            }
+            
+            &:hover .bi-arrow-right{
+
+              transform: translate(-20px, -50%);
+            }
+            
+
+            
           }
     
         }
