@@ -1,6 +1,7 @@
 <template>
   <div class="container">
 
+    <!-- top -->
     <div class="top row d-flex align-items-center">
 
       <!-- left -->
@@ -38,14 +39,16 @@
             Write a message...
           </textarea>
         </div>
-        <div class="send bg_orange text-uppercase">
+        <div class="send bg_orange text-uppercase inline_b cP">
           <span>Send</span>
-          <i class="bi bi-arrow-bar-right"></i>
+          <div class="oLine c_wi"></div>
+          <i class="bi bi-arrow-right"></i>
         </div>
       </div>
       <!-- end right -->
 
     </div>
+    <!-- end top -->
 
     <!-- bottom logo brands -->
     <div class="brands bottom container d-flex justify-content-between">
