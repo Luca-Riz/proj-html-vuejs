@@ -10,14 +10,21 @@
         <!-- end left -->
         
         <!-- right -->
-        <nav class="">
+        <nav class="upRight">
           <ul class="none d-flex justify-content-start">
             <li v-for="item in NavBarHeader" :key="item"
-              class="text-uppercase unstyled m-3">
+              class="text-uppercase unstyled m-3 cP">
+                <i class="bi bi-arrow-right"></i>
                 <strong>{{ item }}</strong>
             </li>
-            <li class="m-3"> <i class="fas fa-search"></i> </li>
-            <li class="m-3"> <i class="fas fa-list-ul"></i> </li>
+            <li class="m-3 cP"> 
+              <i class="bi bi-arrow-right"></i>
+              <i class="fas fa-search"></i> 
+            </li>
+            <li class="m-3 cP">
+              <i class="bi bi-arrow-right"></i> 
+              <i class="fas fa-list-ul"></i> 
+            </li>
           </ul>
         </nav>
         <!-- end right -->
@@ -29,21 +36,20 @@
         <div class="ourTeam row d-flex">
 
           <div class="sx col-1">
-            <i class="bi bi-arrow-left"></i>
+            <i class="bi bi-arrow-left cP"></i>
           </div>
 
           <div class="center col-4">
             <div class="titleFont fw-bolder">Our Team<span class="master_orange">.</span></div>
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit delectus molestiae eius iure debitis!</p>
             <div class="">
-              <!--# da sistemare -->
-              <div class="text-uppercase inline_b">Read more</div>
-              <div class="text-uppercase inline_b bg_orange">Purchase</div>
+              <div class="text-uppercase inline_b cP">Read more</div>
+              <div class="text-uppercase inline_b bg_orange cP">Purchase</div>
             </div>
           </div>
 
           <div class="dx col-1 offset-6">
-            <i class="bi bi-arrow-right"></i>
+            <i class="bi bi-arrow-right cP"></i>
           </div>
 
         </div>

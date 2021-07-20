@@ -11,6 +11,23 @@
   .container-fluid {
     width: 95%;
 
+    .upRight li{
+      position: relative;
+
+      .bi{
+        padding-right: 0.5rem;
+        color: transparent;
+      }
+
+      &:hover{
+        color: $m_orange !important;
+
+        .bi{
+          color: $m_orange !important;
+        }
+      }
+    }
+
     .jumbotron {
       margin-top: 15%;
       .ourTeam{
@@ -36,10 +53,10 @@
     
           .inline_b{
             display: inline-block;
+            padding: 1rem 2rem;
           }
     
         }
       }
     }
-
   }
