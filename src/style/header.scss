@@ -33,19 +33,27 @@
       .ourTeam{
         .sx, .dx{
           margin-top: $fSize_H; 
-
-          i{font-size: 2rem;}
+          position: relative; //
+          
+          i{
+            position: absolute;
+            font-size: 2rem;
+            transition: 0.3s;
+          }
         }
 
+        .sx i:hover{
+          transform: translateX(-10px);
+        }
+        
         .dx{
           text-align: right;
         }
 
-        .dx svg{
-          height: 20px;
+        .dx i:hover{
+          transform: translateX(10px);
         }
-        
-        
+
         .center{
           .titleFont {
             font-size: $fSize_H;

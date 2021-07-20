@@ -83,6 +83,25 @@ export default {
     color: white;
     width: 90%;
 
+    .left, .right{
+      position: relative;
+
+      i{
+        position: absolute;
+        transition: 0.3s;
+        cursor: pointer;
+      }
+    }
+
+    .left i:hover{
+      transform: translateX(-10px);
+    }
+    .right i:hover{
+      transform: translateX(10px);
+    }
+
+
+
     .center {
       text-align: center;
       width: 40%;
