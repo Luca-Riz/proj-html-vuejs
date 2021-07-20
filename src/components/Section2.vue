@@ -25,13 +25,13 @@
       
       <!-- social -->
       <div class="social">
-        <div class="singSoc"> 
+        <div class="singSoc cP"> 
           <i class="fab fa-linkedin-in icon"></i> 
         </div>
-        <div class="singSoc"> 
+        <div class="singSoc cP"> 
           <i class="fab fa-facebook-f icon"></i> 
         </div>
-        <div class="singSoc"> 
+        <div class="singSoc cP"> 
           <i class="fab fa-twitter icon"></i> 
         </div>
       </div>
@@ -142,6 +142,10 @@ export default {
         position: relative;
         color: white;
         margin-right: 10px;
+
+        &:hover{
+          background-color: black;
+        }
       }
 
       .icon{
