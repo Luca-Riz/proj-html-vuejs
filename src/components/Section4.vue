@@ -100,11 +100,11 @@ export default {
         
           .all{
             position: absolute;
-            top: 4px;
+            top: 3px;
             left: 0;
             width: 100%;
-            height: 1px;
-            background-color: $bg_grey;
+            height: 3px;
+            background-color: $border_grey3;
           }
     
         .perc{
