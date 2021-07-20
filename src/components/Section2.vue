@@ -120,16 +120,36 @@ export default {
 
       i{
         color:white;
+        position: absolute;
       }
     }
 
     .aSx{
       left: 0;
 
+      i{
+        transition: 0.3s;
+        left:50%;
+        transform: translateX(-50%);
+        }
+
+      &:hover i {
+        transform: translateX(-75%);
+      }
     }
 
     .aDx{
       left: 57px;
+
+      i{
+        transition: 0.3s;
+        right:50%;
+        transform: translateX(50%);
+      }
+
+      &:hover i {
+        transform: translateX(75%);
+      }
     }
   }
 
