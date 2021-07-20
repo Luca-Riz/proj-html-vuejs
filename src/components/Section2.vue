@@ -2,11 +2,11 @@
   <div class="cont sec2">
 
     <div class="img">
-      <img src="../assets/img/h1-blog-img-04.jpg" alt="">
-      <div class="aSx">
+      <img :src="image[count]" :alt="count">
+      <div class="aSx cP" @click="prevImg">
         <i class="bi bi-arrow-left"></i>
       </div>
-      <div class="aDx">
+      <div class="aDx cP" @click="nextImg">
         <i class="bi bi-arrow-right"></i>
       </div>
     </div>
@@ -51,6 +51,39 @@
 export default {
   name: 'Section2',
 
+  data() {
+    return {
+      image: [
+        require('../assets/img/h1-img-01.jpg'),
+        require('../assets/img/h1-img-02.jpg'),
+        require('../assets/img/h1-img-03.jpg'),
+
+      ],
+      count: 0,
+    }
+  },
+
+  methods: {
+    nextImg(){
+      this.count++;
+      if(this.count == this.image.length){
+        this.count = 0
+      }
+    },
+
+    prevImg(){
+      this.count--;
+      if(this.count < 0){
+        this.count = this.image.length-1
+      }
+    }
+
+  },
+
+  mounted(){
+    this.interval = setInterval(this.nextImg, 5000);
+  }
+
 }
 </script>
 
@@ -63,6 +96,7 @@ export default {
   padding: auto;
 
   .img{
+    min-width: 200px;
     position: relative;
     height: 500px;
     margin-top: 100px;
@@ -172,9 +206,5 @@ export default {
 
 
 }
-
-
-
-
 
 </style> 
