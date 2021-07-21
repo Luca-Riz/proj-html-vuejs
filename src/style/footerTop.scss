@@ -15,16 +15,37 @@
       top: 125px;
     }
     
-    .p2{
+    .p2, .p3{
       position: absolute;
+      
+      &:hover .position{
+        display: block;
+      }
+
+      .position{
+        display: none;
+      }
+    }
+
+    .p2{
       left: 335px;
       top: 70px;
+
+      .position{
+        transform: translateY(-130px)
+      };
     }
     
     .p3{
       position: absolute;
       left: 535px;
       top: 250px;
+      
+      .where{white-space: nowrap}
+
+      .position{
+        transform: translateX(-250px)
+      };
     }
 
     .position{
