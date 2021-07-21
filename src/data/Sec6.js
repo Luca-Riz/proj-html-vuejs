@@ -9,7 +9,7 @@ export default [
   {
     "url": require("../assets/img/h3-img-07.png"),
     "name": "Clarice Hastings",
-    "text": "\"Voluptatum, ipsum delectus qui doloremque earum iusto quo ab similique nulla explicabo recusandae error repudiandae sapiente laborum !\""
+    "text": "\"Voluptatum, ipsum delectus qui doloremque earum iusto quo ab similique nulla explicabo!\""
   },
 
   {

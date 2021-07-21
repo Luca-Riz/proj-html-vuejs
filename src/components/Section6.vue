@@ -147,14 +147,14 @@ export default {
           justify-content: flex-start;
           align-items: center;
 
-          .attiva {color: white;}
-          .disattiva {color: #6a6a6a;}
+          .attiva {background-color: white;}
+          .disattiva {background-color: #6a6a6a;}
 
           .navig{
             top: 50%;
             width: calc(100%/3);
             height: 1px;
-            background-color: #6a6a6a; //debug
+            // background-color: #6a6a6a;
           }
 
           
