@@ -18,10 +18,10 @@
 
         <div class="scrollbar d-flex justify-content-center align-item-center">
 
-          <div class="num_l mx-2">01</div>
+          <div class="num_l mx-2"> 0{{count6+1}} </div>
           <div class="bar">
-            <div class="grey_bar"></div>
-            <div class="white_bar"></div>
+            <div class="navig cP" :class="(index == count6) ? 'attiva' : 'disattiva'" v-for="(element,index) in Sec6" :key="index" @click="navImg(index)"></div>
+              
           </div>
           <div class="num_r mx-2">03</div>
 
@@ -52,19 +52,25 @@ export default {
   },
 
   methods: {
-  nextImg(){
-    this.count6++;
-    if(this.count6 == this.Sec6.length){
-      this.count6 = 0
-    }
-  },
-
-  prevImg(){
-    this.count6--;
-      if(this.count6 < 0){
-        this.count6 = this.Sec6.length-1
+    nextImg(){
+      this.count6++;
+      if(this.count6 == this.Sec6.length){
+        this.count6 = 0
       }
-    }
+    },
+
+    prevImg(){
+      this.count6--;
+        if(this.count6 < 0){
+          this.count6 = this.Sec6.length-1
+        }
+      },
+
+    navImg(i) {
+      this.count6 = i;
+    }, 
+
+
   }
 }
 </script>
@@ -137,25 +143,21 @@ export default {
 
         .bar{
           width: 150px;
-          position: relative;
+          display: flex;
+          justify-content: flex-start;
+          align-items: center;
 
-          .grey_bar{
-            position: absolute;
+          .attiva {color: white;}
+          .disattiva {color: #6a6a6a;}
+
+          .navig{
             top: 50%;
-            left: 0;
-            width: 100%;
+            width: calc(100%/3);
             height: 1px;
-            background-color: #6a6a6a;
+            background-color: #6a6a6a; //debug
           }
 
-          .white_bar{
-            position: absolute;
-            top: 50%;
-            left: 0;
-            width: 30%;
-            height: 1px;
-            background-color: white;
-          }
+          
         }
       }
     }
