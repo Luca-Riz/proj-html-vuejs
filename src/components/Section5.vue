@@ -58,7 +58,6 @@
       <img src="../assets/svg/svg-4.svg" alt="pointing2">
     </div>
 
-
   </div>
 </template>
 
@@ -73,7 +72,6 @@ export default {
       count5: 0,
     }
   },
-
 }
 
 </script>
@@ -94,7 +92,6 @@ export default {
       font-family: $title_font;
     }
   }
-
 
     .sub_title{
       margin-bottom: 2rem;
@@ -153,7 +150,6 @@ export default {
             transform: scale(1.05);
             }
           };
-
       }
 
       .tag {
@@ -166,9 +162,7 @@ export default {
       .subTitle{
         font-size: $fSize_4;
       }
-
     }
-
   }
 
   .points{
@@ -177,6 +171,5 @@ export default {
     top:-40px;
     z-index: -1;
   }
-
 }
 </style> 

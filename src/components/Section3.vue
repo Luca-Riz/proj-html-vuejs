@@ -33,10 +33,7 @@
             </div>
           </div>
         </div>
-
       </div>
-
-
     </div>
     <!-- end rectangle over photo -->
 
@@ -78,8 +75,6 @@ export default {
 
   .upcoming{
       margin-bottom: 30px;
-      
-
   }
 
   .event{
@@ -117,8 +112,6 @@ export default {
       transform: translateX(30px);
     }
 
-
-
     .sx, .dx{
       display: inline-block;
     }
@@ -130,11 +123,10 @@ export default {
     .sx{
       height: 50%;
 
-
       .day{font-size: $fSize_4;}
       .date{font-size: $fSize_7;
           line-height: 0.8;
-          }
+      }
     }
 
     .dx {

@@ -76,13 +76,11 @@ export default {
         this.count = this.image.length-1
       }
     }
-
   },
 
   mounted(){
     this.interval = setInterval(this.nextImg, 5000);
   }
-
 }
 </script>
 
@@ -103,9 +101,7 @@ export default {
     display: inline-block;
     overflow: hidden;
 
-    img{
-      height: 100%;
-    }
+    img{height: 100%;}
 
     .aSx, .aDx{
       position: absolute;
@@ -156,7 +152,6 @@ export default {
     position:absolute;
     top: 0;
     right: 0;
-
 
     img {
       color: $points;
@@ -223,8 +218,6 @@ export default {
       }
     }
   }
-
-
 }
 
 </style> 

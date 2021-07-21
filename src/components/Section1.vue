@@ -56,7 +56,6 @@ export default {
     }
   }
 
-
     .sub_title{
       margin-bottom: 2rem;
     }
@@ -82,6 +81,5 @@ export default {
       }
     }
   }
-
 }
 </style> 

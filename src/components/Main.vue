@@ -7,7 +7,6 @@
     <Section5/>
     <Section6/>
     <Section7/>
-    
   </div>
 </template>
 
@@ -31,10 +30,8 @@ export default {
     Section6,
     Section7,
   },
-
 }
 </script>
-
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
 

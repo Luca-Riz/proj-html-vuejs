@@ -62,7 +62,6 @@
 
         </div>
       </div>
-      
 
     </div>
   </div>
@@ -89,6 +88,5 @@ export default {
 <style scoped lang="scss">
 @import '../style/common.scss';
 @import '../style/header.scss';
-
 
 </style>

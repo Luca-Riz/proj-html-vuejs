@@ -26,15 +26,6 @@ export default {
     Main,
     Footer,
   },
-
-  data() {
-    return {
-      
-    }
-  },
-
-
-
 }
 </script>
 

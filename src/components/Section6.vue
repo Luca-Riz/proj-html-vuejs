@@ -35,7 +35,6 @@
     </div>
   </div>
 
-
 </template>
 
 <script>
@@ -68,8 +67,6 @@ export default {
     navImg(i) {
       this.count6 = i;
     }, 
-
-
   }
 }
 </script>
@@ -122,8 +119,6 @@ export default {
       transform: translateX(10px);
     }
 
-
-
     .center {
       text-align: center;
       width: 40%;
@@ -155,12 +150,9 @@ export default {
             height: 1px;
             // background-color: #6a6a6a;
           }
-
-          
         }
       }
     }
-
   }
 }
 
