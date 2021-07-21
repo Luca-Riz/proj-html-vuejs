@@ -35,8 +35,8 @@
           </div>
         </div>
         <div class="message">
-          <textarea rows="3" cols="" name="comment" form="usrform">
-            Write a message...
+          <textarea rows="3" cols="" name="comment" form="usrform" placeholder="Write a message...">
+            
           </textarea>
         </div>
         <div class="send bg_orange text-uppercase inline_b cP">

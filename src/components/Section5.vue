@@ -12,42 +12,45 @@
 
     <!-- main -->
     <div class="container main d-flex justify-content-between">
-      <div class="row mt-4">
-        <div v-for="(item,i) in Sec5" :key="i" class="circle col-4">
-          <div class="image">
-            <img :src="item.url" :alt="item.title">
-          </div>
+        <div class="row mt-4">
 
-          <div class="tag bg_orange">
-            <span class="me-1">
-              <i class="bi bi-tag"></i>
-            </span>
-            <span>Business, Leading</span>
-          </div>
+          <!-- single news -->
+          <div v-for="(item,i) in Sec5" :key="i" class="circle col-4">
+            <div class="image">
+              <img :src="item.url" :alt="item.title">
+            </div>
+            <div class="tag bg_orange">
+              <span class="me-1">
+                <i class="bi bi-tag"></i>
+              </span>
+              <span>Business, Leading</span>
+            </div>
 
-          <!-- text below img -->
-          <div class="aboveTitle d-flex mt-5">
-            <div class="date">
-              <span class="master_orange me-1">
-                <i class="bi bi-clock"></i>
-                </span> 
-              <span class="t_grey me-1">May 5, 2019</span>               
+            <!-- text below img -->
+            <div class="aboveTitle d-flex mt-5">
+              <div class="date">
+                <span class="master_orange me-1">
+                  <i class="bi bi-clock"></i>
+                  </span> 
+                <span class="t_grey me-1">May 5, 2019</span>               
+              </div>
+              <div class="who">
+                <span class="master_orange me-1">
+                  <i class="bi bi-person"></i>
+                  </span> 
+                <span class="t_grey">Amanda Doe</span>  
+              </div>
             </div>
-            <div class="who">
-              <span class="master_orange me-1">
-                <i class="bi bi-person"></i>
-                </span> 
-              <span class="t_grey">Amanda Doe</span>  
+            <div class="fw-bolder fs-3 mt-1 mb-2 titleFont subTitle"> {{item.title}} </div>
+            <div class="t_grey mb-3"> {{item.text}} </div>
+            <div class="text-uppercase fw-bolder cP link">
+              <span>Read more</span> 
             </div>
+            <!-- end text below img -->
           </div>
-          <div class="fw-bolder fs-3 mt-1 mb-2 titleFont subTitle"> {{item.title}} </div>
-          <div class="t_grey mb-3"> {{item.text}} </div>
-          <div class="text-uppercase fw-bolder cP link">
-            <span>Read more</span> 
-          </div>
-          <!-- end text below img -->
+          <!-- end single news -->
         </div>
-      </div>
+
     </div>
     <!-- end main -->
 
@@ -66,10 +69,21 @@ export default {
   name: 'Section1',
   data() {
     return {
-      Sec5
+      Sec5,
+      settings: {
+      "dots": true,
+      "focusOnSelect": true,
+      "infinite": true,
+      "speed": 500,
+      "slidesToShow": 3,
+      "slidesToScroll": 3,
+      "touchThreshold": 5
+      }
     }
   },
+
 }
+
 </script>
 
 <style lang="scss" scoped>

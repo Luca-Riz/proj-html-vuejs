@@ -22,7 +22,6 @@
     </div>
     <!-- end main -->
 
-
   </div>
 </template>
 

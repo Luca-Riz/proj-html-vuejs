@@ -57,7 +57,6 @@ export default {
         require('../assets/img/h1-img-01.jpg'),
         require('../assets/img/h1-img-02.jpg'),
         require('../assets/img/h1-img-03.jpg'),
-
       ],
       count: 0,
     }
