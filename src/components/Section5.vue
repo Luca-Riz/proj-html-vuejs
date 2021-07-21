@@ -43,8 +43,8 @@
             </div>
             <div class="fw-bolder fs-3 mt-1 mb-2 titleFont subTitle"> {{item.title}} </div>
             <div class="t_grey mb-3"> {{item.text}} </div>
-            <div class="text-uppercase fw-bolder cP link">
-              <span>Read more</span> 
+            <div class="text-uppercase fw-bolder cP cLink">
+              <span class="link">Read more</span> 
             </div>
             <!-- end text below img -->
           </div>
@@ -115,17 +115,27 @@ export default {
     .circle{
       position: relative;
 
-      .link{
+    .cLink{
+      overflow: hidden;
+    }
+
+    .link{
       position: relative;
       display: inline-block;
-      }
+      transition: 0.3s;
+      padding-right: 40px;
+    }
 
-      .link:hover::after{
+    .link:before{
       position: absolute;
       content: url('../assets/svg/arrow-right.svg');
       top: 2px;
-      right: -25px;
-      }
+      left: -25px;
+    }
+
+    .link:hover{
+      transform: translateX(30px);
+    }
       
       .aboveTitle{
         font-size: $fSize_7;
