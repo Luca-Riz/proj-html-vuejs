@@ -106,7 +106,7 @@ export default {
       padding-right: 40px;
     }
 
-    .link:after{
+    .link:before{
       position: absolute;
       content: url('../assets/svg/arrow-right.svg');
       top: 2px;
