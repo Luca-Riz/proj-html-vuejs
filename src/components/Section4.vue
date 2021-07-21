@@ -12,7 +12,9 @@
           Lorem ipsum dolor sit, amet consectetur adipisicing elit.Quis pariatur adipisci ea cum nobis quaerat. Placeat in,excepturi eligendi, cupiditate deserunt consecteturveniam sed atque doloribus assumenda, libero corporis?Aperiam.
           Molestiae ut alias reprehenderit eos repellat sapiente porro nihil laboriosam.
           </p>
-          <div class="text-uppercase fw-bolder cP">Read more</div>
+          <div class="text-uppercase fw-bolder cP link">
+            <span>Read more</span> 
+          </div>
         </div>
 
         <div class="col-6 right">
@@ -68,6 +70,20 @@ export default {
     .left{
       width: 50%;
   
+      .link{
+      position: relative;
+      display: inline-block;
+      }
+
+      .link:hover::after{
+      position: absolute;
+      content: url('../assets/svg/arrow-right.svg');
+      top: 2px;
+      right: -25px;
+      }
+
+
+
       .titleFont{
         font-size: $fSize_3;
       }

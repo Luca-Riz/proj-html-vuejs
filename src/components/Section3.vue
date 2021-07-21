@@ -74,9 +74,6 @@ export default {
     transform: translateY(-50%);
   }
 
-  // .top{
-  //   background-color: #fafafa;
-  // }
   .upcoming{
       margin-bottom: 30px;
       
@@ -90,6 +87,18 @@ export default {
 
     &:hover .city {
       color: $m_orange;
+    }
+
+    .link{
+      position: relative;
+      display: inline-block;
+    }
+
+    &:hover .link::after{
+      position: absolute;
+      content: url('../assets/svg/arrow-right.svg');
+      top: 2px;
+      right: -25px;
     }
 
     .sx, .dx{
@@ -122,8 +131,6 @@ export default {
     .dx i{
       color: $m_orange;
     }
-
-    
   }
 }
 
