@@ -16,12 +16,13 @@
         <div v-for="(item,i) in Sec5" :key="i" class="circle col-4">
           <div class="image">
             <img :src="item.url" :alt="item.title">
-            <div class="tag bg_orange">
-              <span class="me-1">
-                <i class="bi bi-tag"></i>
-              </span>
-              <span>Business, Leading</span>
-            </div>
+          </div>
+
+          <div class="tag bg_orange">
+            <span class="me-1">
+              <i class="bi bi-tag"></i>
+            </span>
+            <span>Business, Leading</span>
           </div>
 
           <!-- text below img -->
@@ -41,7 +42,9 @@
           </div>
           <div class="fw-bolder fs-3 mt-1 mb-2 titleFont subTitle"> {{item.title}} </div>
           <div class="t_grey mb-3"> {{item.text}} </div>
-          <div class="text-uppercase fw-bolder cP">Read more</div>
+          <div class="text-uppercase fw-bolder cP link">
+            <span>Read more</span> 
+          </div>
           <!-- end text below img -->
         </div>
       </div>
@@ -104,21 +107,44 @@ export default {
     margin:auto;
 
     .circle{
+      position: relative;
+
+      .link{
+      position: relative;
+      display: inline-block;
+      }
+
+      .link:hover::after{
+      position: absolute;
+      content: url('../assets/svg/arrow-right.svg');
+      top: 2px;
+      right: -25px;
+      }
       
       .aboveTitle{
         font-size: $fSize_7;
       }
 
       .image{
-        position: relative;
-        img{width: 100%}
+        cursor: pointer;
+        overflow: hidden;
 
-        .tag {
-          position: absolute;
-          bottom: -10px;
-          right: 15px;
-          padding: 10px 20px;
-        }
+        img{
+          transition: 0.5s;
+          width: 100%;
+
+          &:hover {
+            transform: scale(1.05);
+            }
+          };
+
+      }
+
+      .tag {
+        position: absolute;
+        top: 225px;
+        right: 30px;
+        padding: 10px 20px;
       }
 
       .subTitle{
