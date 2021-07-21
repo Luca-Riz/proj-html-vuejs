@@ -46,6 +46,7 @@
         text-align: center;
         margin-right: 0.5rem;
         cursor: pointer;
+        transition: 0.3s;
 
         &:hover{
           background-color: $m_orange;
