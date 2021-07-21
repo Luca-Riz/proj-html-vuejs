@@ -70,15 +70,7 @@ export default {
   data() {
     return {
       Sec5,
-      settings: {
-      "dots": true,
-      "focusOnSelect": true,
-      "infinite": true,
-      "speed": 500,
-      "slidesToShow": 3,
-      "slidesToScroll": 3,
-      "touchThreshold": 5
-      }
+      count5: 0,
     }
   },
 

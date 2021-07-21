@@ -5,16 +5,16 @@
     <div class="content">
 
       <div class="left fs-2">
-        <i class="bi bi-arrow-left"></i>
+        <i class="bi bi-arrow-left" @click="prevImg"></i>
       </div>
 
       <!-- center -->
-      <div class="center" v-for="(item, i) in Sec6" :key="i">
+      <div class="center">
         <div class="image">
-          <img :src="item.url" alt="">
+          <img :src="Sec6[count6].url" alt="">
         </div>
-        <div class="name titleFont fw-bolder my-4"> {{item.name}} </div>
-        <div class="text mb-4"> {{item.text}} </div>
+        <div class="name titleFont fw-bolder my-4"> {{Sec6[count6].name}} </div>
+        <div class="text mb-4"> {{Sec6[count6].text}} </div>
 
         <div class="scrollbar d-flex justify-content-center align-item-center">
 
@@ -30,7 +30,7 @@
       <!-- end center -->
 
       <div class="right fs-2">
-        <i class="bi bi-arrow-right"></i>
+        <i class="bi bi-arrow-right" @click="nextImg"></i>
       </div>
 
     </div>
@@ -46,9 +46,26 @@ export default {
   name: 'Section6',
   data() {
     return {
-      Sec6
+      Sec6,
+      count6: 0,
     }
   },
+
+  methods: {
+  nextImg(){
+    this.count6++;
+    if(this.count6 == this.Sec6.length){
+      this.count6 = 0
+    }
+  },
+
+  prevImg(){
+    this.count6--;
+      if(this.count6 < 0){
+        this.count6 = this.Sec6.length-1
+      }
+    }
+  }
 }
 </script>
 
