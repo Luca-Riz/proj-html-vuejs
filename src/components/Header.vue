@@ -18,11 +18,9 @@
                 <strong>{{ item }}</strong>
             </li>
             <li class="m-3 cP"> 
-              <i class="bi bi-arrow-right"></i>
               <i class="fas fa-search"></i> 
             </li>
             <li class="m-3 cP">
-              <i class="bi bi-arrow-right"></i> 
               <i class="fas fa-list-ul"></i> 
             </li>
           </ul>

@@ -20,8 +20,7 @@
 
           <div class="num_l mx-2"> 0{{count6+1}} </div>
           <div class="bar">
-            <div class="navig cP" :class="(index == count6) ? 'attiva' : 'disattiva'" v-for="(element,index) in Sec6" :key="index" @click="navImg(index)"></div>
-              
+            <div class="navig cP" :class="(index == count6) ? 'attiva' : 'disattiva'" v-for="      (element,index) in Sec6" :key="index" @click="navImg(index)"></div>
           </div>
           <div class="num_r mx-2">03</div>
 
