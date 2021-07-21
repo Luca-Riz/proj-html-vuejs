@@ -27,8 +27,10 @@
             <div class="txt address my-2 t_grey">
               <i class="bi bi-geo-alt me-2"></i>
               {{item.address}} 
-              </div>
-            <div class="link text-uppercase fw-bolder my-2"> {{item.link}} </div>
+            </div>
+            <div class="cLink">
+              <div class="link text-uppercase fw-bolder my-2"> {{item.link}} </div>
+            </div>
           </div>
         </div>
 
@@ -85,21 +87,37 @@ export default {
     padding-bottom: 28px;
     border-top: 1px solid #ebebeb;
 
-    &:hover .city {
+    .city{
+      transition: 0.3s;
+    }
+
+    .city:hover {
       color: $m_orange;
+    }
+
+    .cLink{
+      overflow: hidden;
     }
 
     .link{
       position: relative;
       display: inline-block;
+      transition: 0.3s;
+      padding-right: 40px;
     }
 
-    &:hover .link::after{
+    .link:after{
       position: absolute;
       content: url('../assets/svg/arrow-right.svg');
       top: 2px;
-      right: -25px;
+      left: -25px;
     }
+
+    .link:hover{
+      transform: translateX(30px);
+    }
+
+
 
     .sx, .dx{
       display: inline-block;
